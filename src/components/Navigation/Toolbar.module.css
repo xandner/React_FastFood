@@ -1,0 +1,52 @@
+.Toolbar {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #5cb85c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.ToolbarNav {
+    height: 100%;
+
+}
+
+.Logo {
+    height: 100%;
+    padding: 5px;
+}
+
+.logoImage {
+    border-radius: 100%;
+    height: 100%;
+}
+
+.navItem {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+
+.DivLogo {
+    height: 100%
+}
+
+@media (min-width: 550px) {
+    .MobileOnly {
+        display: None;
+    }
+}
+
+@media (max-width: 549px) {
+    .DesktopOnly {
+        display: none;
+    }
+}
+
